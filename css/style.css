@@ -141,6 +141,11 @@ h2, h3 { margin-top: 0; }
 .project-summary h4{margin:0 0 0.25rem 0}
 .project-summary p{margin:0;color:var(--muted)}
 
+/* Responsive video wrapper for embedded media */
+.video-wrapper{width:100%;max-width:860px;margin:0.75rem auto 0;border-radius:8px;overflow:hidden}
+.video-wrapper iframe{width:100%;height:100%;border:0;display:block;aspect-ratio:16/9}
+
+
 /* Footer */
 .site-footer{
   border-top: 1px solid rgba(14,39,71,0.04);
