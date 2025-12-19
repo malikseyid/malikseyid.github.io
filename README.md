@@ -1,6 +1,8 @@
 # Personal Site (starter)
 
-Open `index.html` in a browser to view the site locally. Replace "Your Name" and the placeholder content with your information.
+Open `index.html` in a browser to view the site locally. This site is for Malik Seyid and is intended to be published to GitHub Pages.
+
+Live site (if published to the repository `malikseyid/malikseyid.github.io`): https://malikseyid.github.io
 
 Quick start (Windows):
 
@@ -9,5 +11,7 @@ Quick start (Windows):
 
 Files added/changed:
 - `index.html` — responsive starter template
-- `styles.css` — basic styles
+- `css/style.css` — primary styles
+- `js/script.js` — interactive scripts (mobile nav, modal)
+- `images/` — profile and project placeholders
 
