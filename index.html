@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Hello — I am Your Name</h1>
+                <nav class="site-nav" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero" class="hero">
+            <h2>Welcome to my personal website</h2>
+            <p>This is a simple, responsive starter site. Replace "Your Name" with your name and add your content below.</p>
+        </section>
+
+        <section id="about">
+            <h3>About</h3>
+            <p>Short bio: write a couple sentences about yourself, your skills, and interests.</p>
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <ul>
+                <li>Project 1 — brief description</li>
+                <li>Project 2 — brief description</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
